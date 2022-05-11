@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		BE405FF4C704B10B2DCFF8CF /* Pods_LittlePinkBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A6DF9932959FB7DB009578 /* Pods_LittlePinkBook.framework */; };
+		D20A1E79282B599000231842 /* Test1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20A1E78282B599000231842 /* Test1ViewController.swift */; };
+		D20A1E7B282B599C00231842 /* Test2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20A1E7A282B599C00231842 /* Test2ViewController.swift */; };
 		D231D8ED2826502D008238F2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231D8EC2826502D008238F2 /* HomeViewController.swift */; };
 		D231D8EF282678CF008238F2 /* FollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231D8EE282678CF008238F2 /* FollowViewController.swift */; };
 		D231D8F1282678EE008238F2 /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231D8F0282678EE008238F2 /* DiscoveryViewController.swift */; };
 		D231D8F3282678FC008238F2 /* NearByViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231D8F2282678FC008238F2 /* NearByViewController.swift */; };
 		D231D8F528267E73008238F2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231D8F428267E73008238F2 /* Constants.swift */; };
+		D231D8F728290B10008238F2 /* WaterFallCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231D8F628290B10008238F2 /* WaterFallCollectionViewController.swift */; };
+		D231D8F928291FE8008238F2 /* WaterFallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D231D8F828291FE8008238F2 /* WaterFallCollectionViewCell.swift */; };
 		D288269F28200934004DBC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D288269E28200934004DBC8F /* AppDelegate.swift */; };
 		D28826A128200934004DBC8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28826A028200934004DBC8F /* SceneDelegate.swift */; };
 		D28826A328200934004DBC8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28826A228200934004DBC8F /* ViewController.swift */; };
@@ -27,11 +31,15 @@
 /* Begin PBXFileReference section */
 		11676FAC28BF1FD321E6737C /* Pods-LittlePinkBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePinkBook.debug.xcconfig"; path = "Target Support Files/Pods-LittlePinkBook/Pods-LittlePinkBook.debug.xcconfig"; sourceTree = "<group>"; };
 		98A6DF9932959FB7DB009578 /* Pods_LittlePinkBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LittlePinkBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D20A1E78282B599000231842 /* Test1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1ViewController.swift; sourceTree = "<group>"; };
+		D20A1E7A282B599C00231842 /* Test2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test2ViewController.swift; sourceTree = "<group>"; };
 		D231D8EC2826502D008238F2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		D231D8EE282678CF008238F2 /* FollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowViewController.swift; sourceTree = "<group>"; };
 		D231D8F0282678EE008238F2 /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
 		D231D8F2282678FC008238F2 /* NearByViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByViewController.swift; sourceTree = "<group>"; };
 		D231D8F428267E73008238F2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D231D8F628290B10008238F2 /* WaterFallCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallCollectionViewController.swift; sourceTree = "<group>"; };
+		D231D8F828291FE8008238F2 /* WaterFallCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallCollectionViewCell.swift; sourceTree = "<group>"; };
 		D288269B28200934004DBC8F /* LittlePinkBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePinkBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D288269E28200934004DBC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D28826A028200934004DBC8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				D288269D28200934004DBC8F /* LittlePinkBook */,
-				D288269C28200934004DBC8F /* Products */,
 				C354B4907F8280E9DD1A2EF3 /* Pods */,
 				3D230CE45B252D9BB4786AFA /* Frameworks */,
 			);
@@ -91,6 +98,7 @@
 				D288269B28200934004DBC8F /* LittlePinkBook.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D288269D28200934004DBC8F /* LittlePinkBook */ = {
@@ -103,6 +111,9 @@
 				D28826B728210FAE004DBC8F /* NavigationBar.swift */,
 				D231D8EC2826502D008238F2 /* HomeViewController.swift */,
 				D231D8F0282678EE008238F2 /* DiscoveryViewController.swift */,
+				D231D8F628290B10008238F2 /* WaterFallCollectionViewController.swift */,
+				D231D8F828291FE8008238F2 /* WaterFallCollectionViewCell.swift */,
+				D288269C28200934004DBC8F /* Products */,
 				D28826A428200934004DBC8F /* Main.storyboard */,
 				D28826AA28200935004DBC8F /* Assets.xcassets */,
 				D28826AC28200935004DBC8F /* LaunchScreen.storyboard */,
@@ -111,6 +122,8 @@
 				D231D8EE282678CF008238F2 /* FollowViewController.swift */,
 				D231D8F2282678FC008238F2 /* NearByViewController.swift */,
 				D231D8F428267E73008238F2 /* Constants.swift */,
+				D20A1E78282B599000231842 /* Test1ViewController.swift */,
+				D20A1E7A282B599C00231842 /* Test2ViewController.swift */,
 			);
 			path = LittlePinkBook;
 			sourceTree = "<group>";
@@ -231,16 +244,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D28826A328200934004DBC8F /* ViewController.swift in Sources */,
+				D231D8F928291FE8008238F2 /* WaterFallCollectionViewCell.swift in Sources */,
 				D231D8F528267E73008238F2 /* Constants.swift in Sources */,
 				D231D8F1282678EE008238F2 /* DiscoveryViewController.swift in Sources */,
 				D288269F28200934004DBC8F /* AppDelegate.swift in Sources */,
 				D28826A928200934004DBC8F /* LittlePinkBook.xcdatamodeld in Sources */,
+				D20A1E79282B599000231842 /* Test1ViewController.swift in Sources */,
 				D28826A128200934004DBC8F /* SceneDelegate.swift in Sources */,
 				D28826B628210C7B004DBC8F /* TabBar.swift in Sources */,
 				D231D8ED2826502D008238F2 /* HomeViewController.swift in Sources */,
+				D20A1E7B282B599C00231842 /* Test2ViewController.swift in Sources */,
 				D28826B828210FAE004DBC8F /* NavigationBar.swift in Sources */,
 				D231D8EF282678CF008238F2 /* FollowViewController.swift in Sources */,
 				D231D8F3282678FC008238F2 /* NearByViewController.swift in Sources */,
+				D231D8F728290B10008238F2 /* WaterFallCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

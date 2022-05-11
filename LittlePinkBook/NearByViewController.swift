@@ -8,7 +8,7 @@
 import UIKit
 import XLPagerTabStrip
 
-class NearByViewController: UIViewController , IndicatorInfoProvider{
+class NearByViewController: ButtonBarPagerTabStripViewController , IndicatorInfoProvider{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,5 +18,11 @@ class NearByViewController: UIViewController , IndicatorInfoProvider{
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
         IndicatorInfo(title: "附近")
+    }
+    
+    override public func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {
+        let vc1 = Test1ViewController()
+        let vc2 = Test2ViewController()
+        return [vc1,vc2,vc2,vc1]
     }
 }

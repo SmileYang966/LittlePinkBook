@@ -16,13 +16,8 @@ class HomeViewController: ButtonBarPagerTabStripViewController {
         
         
         settings.style.buttonBarItemBackgroundColor = UIColor.clear
-        settings.style.buttonBarItemTitleColor = UIColor.label
         settings.style.buttonBarItemFont = UIFont.systemFont(ofSize: 15)
         settings.style.buttonBarItemLeftRightMargin = 0
-//        settings.style.buttonBarLeftContentInset = 80
-//        settings.style.buttonBarRightContentInset = 80
-        
-        
         settings.style.selectedBarBackgroundColor = UIColor(named: "tabBarTintColor") ?? UIColor.black
         settings.style.selectedBarHeight = 3.0
         
